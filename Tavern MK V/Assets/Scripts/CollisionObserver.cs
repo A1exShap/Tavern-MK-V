@@ -4,15 +4,16 @@ using UnityEngine;
 
 public class CollisionObserver : MonoBehaviour
 {
-    // Start is called before the first frame update
-    void Start()
+    private void OnCollisionEnter(Collision other)
     {
-        
-    }
+        if (other.gameObject.CompareTag("Barrier"))
+        {
+            Debug.Log("Lose");
+        }
 
-    // Update is called once per frame
-    void Update()
-    {
-        
+        else if (other.gameObject.CompareTag("Finish"))
+        {
+            Debug.Log("Win");
+        }
     }
 }
