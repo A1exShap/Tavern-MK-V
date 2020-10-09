@@ -1,7 +1,7 @@
 ﻿using UnityEngine;
 
 
-public sealed class PlayerMove : MonoBehaviour
+public sealed class PlayerMove : MonoBehaviour, IUpdateble
 {
     [SerializeField] private Transform _hand;
     [SerializeField] private float _horizontalSpeed = 0.2f;
@@ -14,6 +14,17 @@ public sealed class PlayerMove : MonoBehaviour
     //private float _maxMagnitude = 60;
     private GameObject _lastObject;
 
+    private void OnEnable()
+    {
+        BaseBehaviour.Instance.AddToUpdateble(this);
+    }
+
+    private void OnDisable()
+    {
+        if (BaseBehaviour.Instance == null) return;
+        BaseBehaviour.Instance.RemoveFromUpdateble(this);
+    }
+
     void Start()
     {
         _transform = transform;
@@ -21,7 +32,7 @@ public sealed class PlayerMove : MonoBehaviour
         //_lastObject = _hand.GetComponent<FixedJoint>().connectedBody.gameObject;
     }
 
-    void Update()
+    void IUpdateble.DoUpdate()
     {
         if (Input.GetMouseButtonDown(0))
         {

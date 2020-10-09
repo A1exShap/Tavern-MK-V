@@ -1,0 +1,121 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Settings>
+
+  <meta>
+    <Name>Tavern</Name>
+    <language>German</language>
+  </meta>
+
+  <group id="MainMenu">
+
+    <string id="NewGame">
+      <text>Neues Spiel</text>
+    </string>
+
+    <string id="Continue">
+      <text>Fortsetzen</text>
+    </string>
+
+    <string id="Options">
+      <text>Optionen</text>
+    </string>
+
+    <string id="Restart">
+      <text>Restart</text>
+    </string>
+
+    <string id="QuitToMainMenu">
+      <text>Hauptmenu</text>
+    </string>
+
+    <string id="QuitToWindows">
+      <text>Ausgehen</text>
+    </string>
+
+    <string id="Back">
+      <text>Zuruck</text>
+    </string>
+    
+    <string id="Quit">
+      <text>Verlassen</text>
+    </string>
+
+    <string id="Sound">
+      <text>Klang</text>
+    </string>
+    
+    <string id="Volume">
+      <text>Volumen</text>
+    </string>
+
+    <string id="Weather">
+      <text>Wetter</text>
+    </string>
+
+    <string id="Weapons">
+      <text>Waffe</text>
+    </string>
+    
+  </group>
+
+  <group id="PauseMenu">
+	
+	  <string id="Pause">
+		  <text>Pause</text>
+	  </string>
+	
+	  <string id="Continue">
+		  <text>Fortsetzung</text>
+	  </string>
+	
+	  <string id="Restart">
+		  <text>Neu starten</text>
+	  </string>
+	
+	  <string id="Menu">
+		  <text>Hauptmenu</text>
+	  </string>
+	
+	  <string id="Quit">
+		  <text>Verlassen</text>
+	  </string>
+	
+  </group>
+
+  <group id="StatusShowBox">
+
+    <string id="Win">
+      <text>Besiegung!</text>
+    </string>
+
+    <string id="Lose">
+      <text>Niederlage!</text>
+    </string>
+	
+	<string id="Restart">
+      <text>Neu starten</text>
+    </string>
+
+    <string id="Menu">
+      <text>Hauptmen</text>
+    </string>
+	
+	<string id="Next">
+      <text>Weiter</text>
+    </string>
+
+  </group>
+
+  <group id="OptionsMenu">
+
+    <string id="Sound">
+      <text>Klang</text>
+    </string>
+
+    <string id="Back">
+      <text>Zuruck</text>
+    </string>
+
+  </group>
+  
+</Settings>

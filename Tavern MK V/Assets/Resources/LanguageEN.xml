@@ -1,0 +1,121 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Settings>
+
+  <meta>
+    <Name>Tavern</Name>
+    <language>English</language>
+  </meta>
+
+  <group id="MainMenu">
+
+    <string id="NewGame">
+      <text>New Game</text>
+    </string>
+
+    <string id="Continue">
+      <text>Continue</text>
+    </string>
+
+    <string id="Options">
+      <text>Options</text>
+    </string>
+
+    <string id="Restart">
+      <text>Restart</text>
+    </string>
+
+    <string id="QuitToMainMenu">
+      <text>Main Menu</text>
+    </string>
+
+    <string id="QuitToWindows">
+      <text>Quit Game</text>
+    </string>
+
+    <string id="Back">
+      <text>Back</text>
+    </string>
+
+    <string id="Quit">
+      <text>Quit</text>
+    </string>
+
+    <string id="Sound">
+      <text>Sound</text>
+    </string>
+
+    <string id="Volume">
+      <text>Volume</text>
+    </string>
+
+    <string id="Weather">
+      <text>Weather</text>
+    </string>
+
+    <string id="Weapons">
+      <text>Weapons</text>
+    </string>
+    
+  </group>
+
+  <group id="PauseMenu">
+	
+	  <string id="Pause">
+		  <text>Pause</text>
+	  </string>
+	
+	  <string id="Continue">
+		  <text>Continue</text>
+	  </string>
+	
+	  <string id="Restart">
+		  <text>Restart</text>
+	  </string>
+	
+	  <string id="Menu">
+		  <text>Menu</text>
+	  </string>
+	
+	  <string id="Quit">
+		  <text>Quit</text>
+	  </string>
+	
+    </group>
+
+  <group id="StatusShowBox">
+
+    <string id="Win">
+      <text>You Win!</text>
+    </string>
+
+    <string id="Lose">
+      <text>You Lose!</text>
+    </string>
+	
+	<string id="Restart">
+      <text>Restart</text>
+    </string>
+
+    <string id="Menu">
+      <text>Menu</text>
+    </string>
+	
+	<string id="Next">
+      <text>Next</text>
+    </string>
+
+  </group>
+
+  <group id="OptionsMenu">
+
+    <string id="Sound">
+      <text>Sound</text>
+    </string>
+
+    <string id="Back">
+      <text>Back</text>
+    </string>
+
+  </group>
+  
+</Settings>

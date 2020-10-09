@@ -1,19 +1,25 @@
-﻿using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
+﻿using UnityEngine;
 
-public class CollisionObserver : MonoBehaviour
+
+public sealed class CollisionObserver : MonoBehaviour
 {
+    #region UnityMethods
+
+    public delegate void OnCollision(StatusType statusType);
+    public event OnCollision onCollision;
+
     private void OnCollisionEnter(Collision other)
     {
         if (other.gameObject.CompareTag("Barrier"))
         {
-            Debug.Log("Lose");
+            onCollision?.Invoke(StatusType.Lose);
         }
 
         else if (other.gameObject.CompareTag("Finish"))
         {
-            Debug.Log("Win");
+            onCollision?.Invoke(StatusType.Win);
         }
     }
+
+    #endregion
 }

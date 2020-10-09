@@ -1,0 +1,121 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Settings>
+
+  <meta>
+    <Name>Tavern</Name>
+    <language>Russian</language>
+  </meta>
+
+  <group id="MainMenu">
+
+    <string id="NewGame">
+      <text>Новая игра</text>
+    </string>
+
+    <string id="Continue">
+      <text>Продолжить</text>
+    </string>
+
+    <string id="Restart">
+      <text>Заново</text>
+    </string>
+      
+    <string id="QuitToMainMenu">
+      <text>В меню</text>
+    </string>
+      
+    <string id="QuitToWindows">
+      <text>Выход</text>
+    </string>
+
+    <string id="Back">
+      <text>Назад</text>
+    </string>
+
+    <string id="Options">
+      <text>Настройки</text>
+    </string>
+
+    <string id="Quit">
+      <text>Выход</text>
+    </string>
+
+    <string id="Sound">
+      <text>Звуки</text>
+    </string>
+
+    <string id="Volume">
+      <text>Громкость</text>
+    </string>
+
+    <string id="Weather">
+      <text>Погода</text>
+    </string>
+
+    <string id="Weapons">
+      <text>Оружие</text>
+    </string>
+    
+  </group>
+
+  <group id="PauseMenu">
+	
+	<string id="Pause">
+		<text>Пауза</text>
+	</string>
+	
+	<string id="Continue">
+	  <text>Продолжить</text>
+	</string>
+	
+	<string id="Restart">
+		<text>Рестарт</text>
+	</string>
+	
+	<string id="Menu">
+		<text>Меню</text>
+	</string>
+	
+	<string id="Quit">
+		<text>Выход</text>
+	</string>
+	
+  </group>
+
+  <group id="StatusShowBox">
+
+    <string id="Win">
+      <text>Победа!</text>
+    </string>
+
+    <string id="Lose">
+      <text>Поражение!</text>
+    </string>
+	
+	<string id="Restart">
+      <text>Рестарт</text>
+    </string>
+
+    <string id="Menu">
+      <text>Меню</text>
+    </string>
+	
+	<string id="Next">
+      <text>Продолжить</text>
+    </string>
+
+  </group>
+
+  <group id="OptionsMenu">
+
+    <string id="Sound">
+      <text>Звук</text>
+    </string>
+
+    <string id="Back">
+      <text>Назад</text>
+    </string>
+
+  </group>
+  
+</Settings>
